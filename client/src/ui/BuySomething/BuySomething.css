@@ -1,0 +1,18 @@
+.Cart-Empty-Wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Cart-Empty-Wrapper {
+  flex-grow: 1;
+}
+
+.Cart-Empty {
+  font-size: 3rem;
+}
+
+.Go-To-Products {
+  text-decoration: underline;
+}

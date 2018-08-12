@@ -1,0 +1,80 @@
+.Cart-Table {
+  width: 80%;
+  text-align: center;
+  transition: ease .5s all;
+}
+
+.Cart-Products-Wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+tr {
+  height: 53px;
+}
+
+tr:nth-child(even), tr:first-child {
+  border-bottom: 1px solid #eee;
+}
+
+tr:nth-child(even) {
+  border-top: 1px solid #eee;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+.My-Cart-Title {
+  text-align: center;
+  margin: 3rem;
+}
+
+/* Total Price & Checkout button */
+.Total-Price {
+  display: inline-block;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.Checkout-Button {
+  background-color: #222;
+  border: none;
+  border-radius: 4px;
+  margin: .3rem;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  height: 36px;
+}
+
+.Checkout-Button-Text {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+/* Media's */
+
+@media(max-width: 750px) {
+  .Cart-Table {
+    width: 100%;
+  }
+}
+
+@media(max-width: 450px) {
+  .Cart-Table {
+    font-size: 14px;
+  }
+  .Checkout-Button {
+    width: 83%;
+  }
+}
+
+

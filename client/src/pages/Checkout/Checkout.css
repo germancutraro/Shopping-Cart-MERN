@@ -1,0 +1,44 @@
+.Checkout-Wrapper {
+  margin-top: 10%;
+}
+
+.Checkout-Form {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Checkout-Title {
+  text-align: center;
+  margin: 1rem;
+}
+.Checkout-Input {
+  width: 53%;
+  height: 45px;
+  display: block;
+  border: 1px solid #EDEDED;
+  padding: 3px 0 3px 10px;
+  margin: 1rem;
+  outline: none;
+}
+
+.Checkout-Button {
+  width: 53%;
+  padding: 0;
+  margin: 1rem;
+}
+
+.Close-Modal {
+  position: absolute;
+  top: 11px;
+  right: 15px;
+  color: #000;
+  cursor: pointer;
+}
+
+@media(max-width: 350px) {
+  .Checkout-Button {
+    width: 93%;
+  }
+}

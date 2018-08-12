@@ -1,0 +1,25 @@
+.NavBar-Wrapper {
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem;
+  font-size: 14px;
+}
+
+.Cart-Info {
+  position: relative;
+}
+
+.Cart-Item-Counter {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  text-align: center;
+  color: #fff;
+  background-color: #a864a8;
+  font-size: 9px;
+  line-height: 14px;
+  top: -5px;
+  left: 13px;
+}
