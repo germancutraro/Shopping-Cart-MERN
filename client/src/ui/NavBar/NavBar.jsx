@@ -15,7 +15,7 @@ const NavBar = props => (
   <nav className="NavBar-Wrapper">
     <div>
       <Link to="/">
-       <p>ShopingReact</p>
+       <p>Shopping Cart React</p>
       </Link> 
     </div>
     <Link to="/cart">
@@ -23,6 +23,9 @@ const NavBar = props => (
         <span className="Cart-Item-Counter">{props.cart.length}</span>
         <i className="fa fa-shopping-bag"></i>
         <p>Cart: ${totalPrice(props.cart)}</p>
+      </div>
+      <div>
+        <h3>Total Cart</h3>
       </div>
     </Link>
   </nav>
